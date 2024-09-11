@@ -1,0 +1,16 @@
+.final-footer {
+  background-color: #3593CE;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0;
+  gap: 5rem;
+}
+
+.act-footer {
+  position: absolute;
+  right: 10rem;  
+  color: #408AD5;
+  border: none;
+}

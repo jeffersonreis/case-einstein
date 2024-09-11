@@ -1,0 +1,54 @@
+header {
+  padding: 1rem;
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+
+}
+
+.logo {
+  width: 100%;
+  max-width: 200px;
+  margin: 0 auto;
+  display: block;
+}
+
+button {
+  cursor: pointer;
+  padding: 0.7rem 0;
+  width: 100px;
+  border: 1.5px solid black;
+  border-radius: 10px;  
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);  
+}
+
+button:hover {
+  background-color: #ededed;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.act {
+  background-color: #2C3E50;
+  color: #FFF;
+  transition: background-color 0.2s ease; 
+}
+
+.act:hover {
+  background-color: #3069a2;
+}
+
+.mrb {
+  margin-right: 50px;
+}
+
+.left-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.right-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}

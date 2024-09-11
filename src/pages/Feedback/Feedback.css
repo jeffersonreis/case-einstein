@@ -1,0 +1,99 @@
+.container-feedback {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+
+  .title {
+    font-size: 36px;
+    font-weight: 700;
+  }
+}
+
+.center-feedback {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.content {  
+  max-width: 1000px;
+}
+
+.bg-feed {
+  width: 100%;
+  height: auto;
+  opacity: 1;
+}
+
+.bg-img {
+  position: relative;  
+}
+
+.desc-fb {
+  position: absolute;
+  top: 10%;
+  right: 10%;
+  width: 480px;
+  text-align: center;
+
+
+  h4 {
+    font-weight: 700;
+    font-size: 26px;   
+  }
+
+  h4.course {
+    font-weight: 800;
+    bottom: 100px;
+  }
+
+  p {
+    font-weight: 700;
+    font-size: 24px;
+  }
+}
+
+.img-person {
+  position: absolute;
+  left: 0;
+  bottom: 50px;
+  width: 40%;
+}
+
+.nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  padding: 0;
+}
+
+
+.nav.left {
+  left: -150px;
+}
+
+.nav.right {
+  right: -150px;
+}
+
+.nav img {
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+
+.nav:hover img {
+  opacity: 0.8; 
+}
+
+.content.transitioning .desc, .content.transitioning .img-person {
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  opacity: 0;
+}
+
+.content .bg-img, .content .desc, .content .img-person {
+  transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+  opacity: 1;
+}

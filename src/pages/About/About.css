@@ -1,0 +1,28 @@
+.container-about {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  max-width: 80%;
+}
+
+.about {
+  text-align: right;
+  max-width: 800px;
+
+  h4 {    
+    font-size: 28px;
+    font-weight: 700;
+  }
+  p {
+    font-size: 25px;
+    font-weight: 500;
+  }
+} 
+

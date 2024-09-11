@@ -1,0 +1,26 @@
+.footer {
+  background-color: #CEEBF1;
+  height: 120px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  align-items: center;
+}
+
+.einstein {
+  margin-left: 4rem;
+}
+
+.rosa {
+  transform: rotate(62deg);
+  /* height: 100px; */
+  width: 130px;
+  margin-right: 4rem;
+  padding-top: 3rem;
+}
+
+h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
