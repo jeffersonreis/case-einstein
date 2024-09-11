@@ -3,7 +3,7 @@
 Desenvolvimento do case web do Einstein Floripa, uma ONG de Florianópolis/SC com sede na Universidade Federal de Santa Catarina - UFSC.
 
 
-🔗 [Acessar Demo Online](https://www.figma.com/design/SbtROBadqFWbOyfayNhCXp/Case-Web-(Copy)?node-id=1-2&t=pwTiR4fasiTfIelb-1) 
+🔗 [Acessar Site Demo Online](https://main--case-einstein.netlify.app/) 
 
 ### Design
 Foi baseado no Figma do case disponibilizado no edital, mas com pequenas alterações, como:
