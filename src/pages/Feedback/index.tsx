@@ -61,7 +61,7 @@ const Feedback: React.FC = () => {
         clearInterval(intervalRef.current);
       }
     };
-  }, []);
+  }, [startAutoSlide]);
 
   return (
     <section className='container-feedback'>
