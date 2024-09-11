@@ -1,46 +1,50 @@
-# Getting Started with Create React App
+# Case Web do Einstein Floripa
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Desenvolvimento do case web do Einstein Floripa, uma ONG de Florianópolis/SC com sede na Universidade Federal de Santa Catarina - UFSC.
 
-## Available Scripts
 
-In the project directory, you can run:
+🔗 [Acessar Demo Online](https://www.figma.com/design/SbtROBadqFWbOyfayNhCXp/Case-Web-(Copy)?node-id=1-2&t=pwTiR4fasiTfIelb-1) 
 
-### `npm start`
+### Design
+Foi baseado no Figma do case disponibilizado no edital, mas com pequenas alterações, como:
+- Algumas cores, ícones, imagens e fontes foram ajustadas ou remanejadas.
+- Ajustes para ficar um site em um formato mais clean e minimalista.
+- Adicionado action buttons do "Apoie", para uma maior conversão do usuário.
+- Adicionado menu "aluno", que posteriormente seria um acesso ao sistema interno do Einstein.
+- No momento, não foi criado a responsividade do site, visto que não estava presente no design atual e o tempo empregado não foi o suficiente para criá-lo.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+🔗 [Acessar Design Figma](https://www.figma.com/design/SbtROBadqFWbOyfayNhCXp/Case-Web-(Copy)?node-id=1-2&t=pwTiR4fasiTfIelb-1) 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+### Tecnologia
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Para o protótipo foi ajustado através do Figma.
+Para o desenvolvimento do site, foi utilizado ReactJS com Typescript.
 
-### `npm run build`
+Não foi utilizado nenhum outro framework ou biblioteca de desenvolvimento.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Instalação
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+NodeJS é necessário, a versão utilizada nesse projeto foi a 18. [Node.js](https://nodejs.org/).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Instalar dependências:
+```sh
+npm i
+```
 
-### `npm run eject`
+2. Para rodar locamente basta um:
+```sh
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+3. Feito, rodando localmente na porta 3000 (por padrão)
+```sh
+http://localhost:3000/
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## License
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+MIT
+**Jefferson Reis,**
+**Free Software**
