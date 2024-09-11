@@ -67,7 +67,7 @@ const Feedback: React.FC = () => {
     <section className='container-feedback'>
       <div className='center-feedback'>
         <div className={`content ${isTransitioning ? 'transitioning' : ''}`}>
-          <h3 className='title'>DEPOIMENTOS</h3>
+          <h3 className='title-fd'>DEPOIMENTOS</h3>
 
           <div className='bg-img'>
             <img src={back} alt="background" className='bg-feed' draggable='false'/>
